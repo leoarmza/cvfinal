@@ -1,13 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
-
-
 section[id]{
     scroll-margin-top: 70px;
 }
-
-
 body{
 font-family: 'Montserrat', sans-serif;
 background-color: rgb(230, 230, 230);
@@ -18,25 +14,20 @@ a {
 text-decoration: none;
 color: black;
 }
-
 .padding {
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
-   
 @media(min-width:950px){
-
  .padding {
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 70px;
     padding-bottom: 70px;
     }
- 
-}
-
+ }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Sofia+Sans:ital,wght@1,400;1,900&family=Unbounded:wght@700&family=Zilla+Slab:ital@1&display=swap');
 .profile-info {
 margin-bottom: 25px;
@@ -62,7 +53,6 @@ margin-bottom: 25px;
     font-family: 'Montserrat', sans-serif;
 }
 .profile-title{
-    
     font-size: 60px;
     font-weight: bold;
     margin: 0;
@@ -113,7 +103,6 @@ margin-bottom: 25px;
         font-size: 28px;
     }  
 }
-
 .skills{
     max-width: 980px;
     margin: 0 auto;
@@ -124,7 +113,6 @@ margin-bottom: 25px;
     text-transform: uppercase;
     text-align: center;
 }
-
 .skills-skill{
     font-size: 20px;
     font-weight: 500;
@@ -133,7 +121,6 @@ margin-bottom: 25px;
     padding: 0.5em 0.7em;
     margin: 10px;
 }
-
 .skills-list{
     list-style: none;
     padding: 0;
@@ -141,7 +128,6 @@ margin-bottom: 25px;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 @media(min-width:950px){
     .skills-title{
         font-size: 50px;
@@ -152,8 +138,6 @@ margin-bottom: 25px;
         margin: 20px;
     }
 }
-
-/* experiencias */
 .experiences{
     display: flex;
     flex-direction: column;
@@ -245,7 +229,6 @@ margin: 25px;
     position: absolute;
     top:-20px;
     left:-9px;
-
   }  
   .line::after{
     top:100%;
@@ -264,15 +247,11 @@ margin: 25px;
 
     display: grid;
     gap:25px;
-
-    
 }
-
 .contact p,
 .contact h2{
     margin:0;
     padding: 0;
-    
 }
 .contact-title{
     font-size: 30px;
@@ -285,7 +264,6 @@ margin: 25px;
 .contact-form {
     display: grid;
     gap:20px;
-    
 }
 .contact-details-group,
 .contact-form-group {
@@ -329,9 +307,7 @@ margin: 25px;
         margin: 0 auto;
         box-sizing: border-box;
     }
-       
-    
-    .contact-title{
+        .contact-title{
         font-size: 35px;
         text-align: left;
     }
